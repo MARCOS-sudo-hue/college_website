@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .hero {
+      height: 100vh;
+      width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)
+      background-size:cover;
+      background-position: center;
+      position: relative;
+    }
+    .navbar{
+      width: 100%;
+      padding: 20px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo{
+      color: ghostwhite;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .logo:hover{
+      color: black;
+    }
+    .nav-links{
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color:white;
+       font-size: 20px;
+      transition: 0.5s;
+    }
+    .nav-links li a:hover{
+      color: yellow;
+    }
+    .nav-links li a.active{
+      border-bottom: 2px solid orange;
+      padding-bottom: 10px;
+    }
+    .nav-btn{
+      background: dimgrey;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .nav-btn:hover{
+      background: black;
+    }
+
+  </style>
+</head>
+<body>
+<header  class="hero">
+
+  <nav  class="navbar">
+    <div class="logo">
+      Strive<span>.</span>
+    </div>
+    <ul  class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="#">Blog</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">Pricing</a></li>
+       <li><a href="#">Dropdown</a></li>
+    </ul>
+    <a href="#" class="nav-btn">Get Started</a>
+  </nav>
+  <div  class="hero-content">
+     <h1>Building Trust,Driving Growth</h1>
+
+ <div  class="line"></div>
+  <p>
+    Present your business with confidence using a clean, flexible,and fully responsive template
+    that helps you connect with clients, attract opportunities and strengthen your brand identity.
+  </p>
+    <a href="#" class="hero-btn">Get Started</a>
+  </div>
+</header>
+
+</body>
+</html>
